@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients_says",
+  "info": {
+    "name": "Clients Say"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cli_name_en": {
+      "type": "string"
+    },
+    "cli_name_kh": {
+      "type": "string"
+    },
+    "cli_position_en": {
+      "type": "string"
+    },
+    "cli_position_kh": {
+      "type": "string"
+    },
+    "cli_content_en": {
+      "type": "richtext"
+    },
+    "cli_content_kh": {
+      "type": "richtext"
+    },
+    "cli_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

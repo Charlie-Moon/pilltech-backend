@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Questions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "que_title_en": {
+      "type": "string"
+    },
+    "que_title_kh": {
+      "type": "string"
+    },
+    "que_content_en": {
+      "type": "richtext"
+    },
+    "que_content_kh": {
+      "type": "richtext"
+    }
+  }
+}

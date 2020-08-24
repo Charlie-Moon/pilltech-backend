@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_useful_link_useful_links",
+  "info": {
+    "name": "useful_link",
+    "icon": "thumbs-up"
+  },
+  "options": {},
+  "attributes": {
+    "link_title_en": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    },
+    "link_title_kh": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "Social",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "instragram": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "linkin": {
+      "type": "string"
+    },
+    "linkin_url": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    }
+  }
+}

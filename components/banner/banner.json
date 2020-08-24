@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "name": "banner",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "banner_title_en": {
+      "type": "richtext"
+    },
+    "banner_title_kh": {
+      "type": "richtext"
+    },
+    "banner_trail_en": {
+      "type": "string"
+    },
+    "banner_trail_kh": {
+      "type": "string"
+    },
+    "banner_demo_en": {
+      "type": "string"
+    },
+    "banner_demo_kh": {
+      "type": "string"
+    },
+    "banner_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

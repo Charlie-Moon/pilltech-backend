@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_interested_interesteds",
+  "info": {
+    "name": "interested",
+    "icon": "comment-dots"
+  },
+  "options": {},
+  "attributes": {
+    "int_title_en": {
+      "type": "string"
+    },
+    "int_title_kh": {
+      "type": "string"
+    },
+    "int_desc_en": {
+      "type": "text"
+    },
+    "int_desc_kh": {
+      "type": "text"
+    },
+    "int_btn_en": {
+      "type": "string"
+    },
+    "int_btn_kh": {
+      "type": "string"
+    }
+  }
+}

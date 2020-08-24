@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_message_ceo_message_ceos",
+  "info": {
+    "name": "message_ceo",
+    "icon": "haykal"
+  },
+  "options": {},
+  "attributes": {
+    "ceo_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "ceo_name_en": {
+      "type": "string"
+    },
+    "ceo_name_kh": {
+      "type": "string"
+    },
+    "position_en": {
+      "type": "string"
+    },
+    "position_kh": {
+      "type": "string"
+    },
+    "ceo_link_tile_en": {
+      "type": "string"
+    },
+    "ceo_link_tile_kh": {
+      "type": "string"
+    },
+    "ceo_link": {
+      "type": "string"
+    },
+    "message_title_en": {
+      "type": "string"
+    },
+    "message_title_kh": {
+      "type": "string"
+    },
+    "ceo_desc_en": {
+      "type": "text"
+    },
+    "ceo_desc_kh": {
+      "type": "text"
+    }
+  }
+}

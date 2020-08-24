@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_prcing_pricice_plans",
+  "info": {
+    "name": "pricice_plan",
+    "icon": "cart-plus"
+  },
+  "options": {},
+  "attributes": {
+    "price_25": {
+      "type": "component",
+      "repeatable": false,
+      "component": "prcing.pricing"
+    },
+    "price_30": {
+      "type": "component",
+      "repeatable": false,
+      "component": "prcing.pricing"
+    }
+  }
+}

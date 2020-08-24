@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_us_about_uses",
+  "info": {
+    "name": "About Us",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "link_title_en": {
+      "type": "string"
+    },
+    "link_title_kh": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    }
+  }
+}

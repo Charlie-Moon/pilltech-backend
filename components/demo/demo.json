@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_demo_demos",
+  "info": {
+    "name": "demo",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "demo_title_en": {
+      "type": "string"
+    },
+    "demo_title_kh": {
+      "type": "string"
+    },
+    "demo_image_en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "demo_image_kh": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "demo_vid_en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "demo_vid_kh": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "demo_sub_title_en": {
+      "type": "string"
+    },
+    "demo_sub_title_kh": {
+      "type": "string"
+    },
+    "demo_desc_en": {
+      "type": "text"
+    },
+    "demo_desc_kh": {
+      "type": "text"
+    }
+  }
+}

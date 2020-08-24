@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/clients-says",
+      "handler": "clients-say.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clients-says/count",
+      "handler": "clients-say.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clients-says/:id",
+      "handler": "clients-say.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/clients-says",
+      "handler": "clients-say.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/clients-says/:id",
+      "handler": "clients-say.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/clients-says/:id",
+      "handler": "clients-say.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

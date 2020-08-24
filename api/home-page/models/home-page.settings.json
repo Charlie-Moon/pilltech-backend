@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "feat_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-title.heading-title"
+    },
+    "feat_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    },
+    "message_ceo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "message-ceo.message-ceo"
+    },
+    "demo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "demo.demo"
+    },
+    "cli_say_tile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-title.heading-title"
+    },
+    "plan_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-title.heading-title"
+    },
+    "plan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "prcing.pricice-plan"
+    },
+    "heading_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-title.heading-title"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "questions.questions"
+    },
+    "download_app": {
+      "type": "component",
+      "repeatable": false,
+      "component": "down-app.down-app"
+    },
+    "news_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-title.heading-title"
+    },
+    "interested": {
+      "type": "component",
+      "repeatable": false,
+      "component": "interested.interested"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_questions_questions",
+  "info": {
+    "name": "questions",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "ques_title_en": {
+      "type": "text"
+    },
+    "ques_title_kh": {
+      "type": "text"
+    },
+    "ques_answer_en": {
+      "type": "text"
+    },
+    "ques_answer_kh": {
+      "type": "text"
+    }
+  }
+}

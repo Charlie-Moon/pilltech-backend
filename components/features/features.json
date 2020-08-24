@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_features_features",
+  "info": {
+    "name": "features",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "feat_icon": {
+      "type": "string"
+    },
+    "feat_title_en": {
+      "type": "string"
+    },
+    "feat_title_kh": {
+      "type": "string"
+    },
+    "feat_desc_en": {
+      "type": "text"
+    },
+    "feat_desc_kh": {
+      "type": "text"
+    }
+  }
+}

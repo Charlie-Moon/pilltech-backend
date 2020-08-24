@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_prcing_pricings",
+  "info": {
+    "name": "Pricing",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "int_title_en": {
+      "type": "string"
+    },
+    "int_title_kh": {
+      "type": "string"
+    },
+    "pri_month_en": {
+      "type": "string"
+    },
+    "pri_month_kh": {
+      "type": "string"
+    },
+    "pri_desc_en": {
+      "type": "richtext"
+    },
+    "pri_desc_kh": {
+      "type": "richtext"
+    },
+    "pri_num": {
+      "type": "biginteger"
+    },
+    "pri_feat_en": {
+      "type": "string"
+    },
+    "pri_feat_kh": {
+      "type": "string"
+    },
+    "pri_feat_desc_en": {
+      "type": "richtext"
+    },
+    "pri_feat_desc_kh": {
+      "type": "richtext"
+    },
+    "pri_button_en": {
+      "type": "string"
+    },
+    "pri_button_kh": {
+      "type": "string"
+    }
+  }
+}
