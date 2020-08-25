@@ -1,18 +1,18 @@
 module.exports = ({ env }) => ({
-  defaultConnection: 'default',
+  defaultConnection: "default",
   connections: {
     default: {
-      connector: 'bookshelf',
+      connector: "bookshelf",
       settings: {
-        client: 'mysql',
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 8889),
-        database: env('DATABASE_NAME', 'pilltech2'),
-        username: env('DATABASE_USERNAME', 'root'),
-        password: env('DATABASE_PASSWORD', 'root'),
-        ssl: env.bool('DATABASE_SSL', false),
+        client: "mysql",
+        host: env("DATABASE_HOST", "localhost"),
+        port: env.int("DATABASE_PORT", 3306),
+        database: env("DATABASE_NAME", "pilltech2"),
+        username: env("DATABASE_USERNAME", "root"),
+        password: env("DATABASE_PASSWORD", ""),
+        ssl: env.bool("DATABASE_SSL", false),
       },
-      options: {}
+      options: {},
     },
   },
 });

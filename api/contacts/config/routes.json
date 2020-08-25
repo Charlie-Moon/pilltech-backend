@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/questions",
-      "handler": "questions.find",
+      "path": "/contacts",
+      "handler": "contacts.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/questions/count",
-      "handler": "questions.count",
+      "path": "/contacts/count",
+      "handler": "contacts.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/questions/:id",
-      "handler": "questions.findOne",
+      "path": "/contacts/:id",
+      "handler": "contacts.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/questions",
-      "handler": "questions.create",
+      "path": "/contacts",
+      "handler": "contacts.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/questions/:id",
-      "handler": "questions.update",
+      "path": "/contacts/:id",
+      "handler": "contacts.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/questions/:id",
-      "handler": "questions.delete",
+      "path": "/contacts/:id",
+      "handler": "contacts.delete",
       "config": {
         "policies": []
       }

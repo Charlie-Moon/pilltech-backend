@@ -1,24 +1,24 @@
 {
   "kind": "collectionType",
-  "collectionName": "questions",
+  "collectionName": "contacts",
   "info": {
-    "name": "Questions"
+    "name": "contacts"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "que_title_en": {
+    "name": {
       "type": "string"
     },
-    "que_title_kh": {
+    "email": {
       "type": "string"
     },
-    "que_content_en": {
-      "type": "richtext"
+    "phone": {
+      "type": "string"
     },
-    "que_content_kh": {
+    "message": {
       "type": "richtext"
     }
   }

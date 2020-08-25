@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "maps",
+  "info": {
+    "name": "map"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "url": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "team",
+  "info": {
+    "name": "team",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "title_kh": {
+      "type": "string"
+    },
+    "desc_en": {
+      "type": "richtext"
+    },
+    "desc_kh": {
+      "type": "richtext"
+    }
+  }
+}
