@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "about-us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.team"
+    },
+    "core": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core.core"
+    }
+  }
+}

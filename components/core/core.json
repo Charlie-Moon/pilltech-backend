@@ -1,0 +1,42 @@
+{
+  "collectionName": "core",
+  "info": {
+    "name": "core",
+    "icon": "handshake"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "position_en": {
+      "type": "string"
+    },
+    "position_kh": {
+      "type": "string"
+    },
+    "desc_en": {
+      "type": "richtext"
+    },
+    "desc_kh": {
+      "type": "richtext"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social.social"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "name_kh": {
+      "type": "string"
+    }
+  }
+}
